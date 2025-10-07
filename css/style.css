@@ -7,35 +7,61 @@
 
 img {
     max-width: 100%;
+
 }
 
 .container {
     width: 80%;
     max-width: 1000px;
     margin: 0 auto;
-    background-color: black;
+    background-color: grey;
 }
 
 section {
     padding: 30px;
+    display: flex;
 }
 
 .row {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-}
 
+}
 .col-30 {
     width: 30%;
 }
 
 .card {
-    position: relative;
+
 }
 
-.discount {
+.product-label{
     background-color: red;
     color: white;
     position: absolute;
+}
+
+.product-wishlist{
+
+}
+
+.card-content{
+
+}
+
+.product-brand{
+
+}
+.product-title{
+
+}
+.product-price{
+
+}
+.price-original{
+
+}
+.price-discount{
+    
 }
