@@ -4,6 +4,38 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 img {
-  max-width: 100%;
+    max-width: 100%;
+}
+
+.container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+section {
+    padding: 30px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col-30 {
+    width: 30%;
+}
+
+.card {
+    position: relative;
+}
+
+.discount {
+    background-color: red;
+    color: white;
+    position: absolute;
 }
